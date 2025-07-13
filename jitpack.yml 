@@ -1,0 +1,5 @@
+jdk:
+  - openjdk11
+
+install:
+  - ./gradlew :imageviewer:assembleRelease :imageviewer:publishToMavenLocal -xlint -xtest
